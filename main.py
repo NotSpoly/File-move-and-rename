@@ -17,7 +17,7 @@ class MyHandler(FileSystemEventHandler):
             os.rename(src, new_destination)
 
 
-folder_to_track = First Path"
+folder_to_track = "First Path"
 folder_destination = "Second Path"
 eventhandler = MyHandler()
 observer = Observer()
